@@ -4,11 +4,12 @@ python-dotenv==1.0.0
 streamlit==1.18.1
 openai==0.27.6
 faiss-cpu==1.7.4
-altair==4
+altair==4.2.2  # Specify the minor version for better compatibility
 tiktoken==0.4.0
-# uncomment to use huggingface llms
+
+# Uncomment to use Hugging Face LLMs
 # huggingface-hub==0.14.1
 
-# uncomment to use instructor embeddings
+# Uncomment to use Instructor embeddings
 # InstructorEmbedding==1.0.1
 # sentence-transformers==2.2.2
